@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 
 mongoose.Promise = Promise
 
-mongoose.connect('mongodb://localhost/mern-lab')
+mongoose.connect('mongodb://localhost/helium')
   .then(connection => console.log('connected!'))
   .catch(err => console.log('connection failed!', err))
 
