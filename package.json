@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/erinkelley27/helium-project3-backend/issues"
   },
-  "homepage": "https://github.com/erinkelley27/helium-project3-backend#readme"
+  "homepage": "https://github.com/erinkelley27/helium-project3-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.9"
+  }
 }
