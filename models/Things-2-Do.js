@@ -5,6 +5,7 @@ const Things2Do = new Schema({
   sightsee: String,
   restaurant: String,
   accommodation: String,
+  romanticPlace: String,
   image: String
 })
 
