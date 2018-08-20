@@ -7,6 +7,6 @@ const locationController = require('./controllers/location.js')
 
 app.use(parser.json())
 
-app.use('/cities', locationController)
+app.use('/locations', locationController)
 
 app.listen(3001, () => console.log('listening on port 3001'))
