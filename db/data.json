@@ -1,0 +1,32 @@
+[
+    {
+        "city": "Philadelphia, PA",
+        "tagline": "City of Brotherly Love",
+        "image": ""
+    },
+    {
+        "city": "Chengdu, China",
+        "tagline": "Land of Abundance",
+        "image": ""
+    },
+    {
+        "city": "Chiang Mai, Thailand",
+        "tagline": "Flame of the Forest",
+        "image": ""
+    },
+    {
+        "city": "Barcelona, Spain",
+        "tagline": "More than a City",
+        "image": ""
+    },
+    {
+        "city": "Paris, France",
+        "tagline": "City of Love",
+        "image": ""
+    },
+    {
+        "city": "Cebu, Philippines",
+        "tagline": "Experience the Philippines",
+        "image": ""
+    }  
+]
