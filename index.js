@@ -10,7 +10,7 @@ const things2doController = require('./controllers/things2do.js')
 app.use(parser.json())
 
 app.use('/', vacationsController)
-app.use('/see-vacations', cityController)
-app.use('/see-vacations/:id', things2doController)
+app.use('/', cityController)
+app.use('/', things2doController)
 
 app.listen(3001, () => console.log('Listening on port 3001 :)'))
