@@ -5,7 +5,9 @@ const Location = new Schema({
   city: String,
   tagline: String,
   image: String
-})
+},
+{ collection: 'locations' }
+)
 
 mongoose.model('Location', Location)
 
