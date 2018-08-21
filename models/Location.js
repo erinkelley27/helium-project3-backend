@@ -14,7 +14,9 @@ const Things2Do = new Schema({
 const Rating = new Schema({
   heart: Number,
   brokenHeart: Number
-})
+},
+{ collection: 'ratings' }
+)
 
 const Location = new Schema({
   city: String,
