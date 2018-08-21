@@ -1,32 +1,32 @@
 [
-    {
-        "city": "Philadelphia, PA",
-        "tagline": "City of Brotherly Love",
-        "image": ""
-    },
-    {
-        "city": "Chengdu, China",
-        "tagline": "Land of Abundance",
-        "image": ""
-    },
-    {
-        "city": "Chiang Mai, Thailand",
-        "tagline": "Flame of the Forest",
-        "image": ""
-    },
-    {
-        "city": "Barcelona, Spain",
-        "tagline": "More than a City",
-        "image": ""
-    },
-    {
-        "city": "Paris, France",
-        "tagline": "City of Love",
-        "image": ""
-    },
-    {
-        "city": "Cebu, Philippines",
-        "tagline": "Experience the Philippines",
-        "image": ""
-    }  
+  {
+    "city": "Philadelphia, PA",
+    "tagline": "City of Brotherly Love",
+    "image": "https://postimg.cc/image/5f3q8j857/"
+  },
+  {
+    "city": "Chengdu, China",
+    "tagline": "Land of Abundance",
+    "image": "https://postimg.cc/image/9yx1s0vwd/"
+  },
+  {
+    "city": "Chiang Mai, Thailand",
+    "tagline": "Flame of the Forest",
+    "image": "https://postimg.cc/image/6fb42ddst/"
+  },
+  {
+    "city": "Barcelona, Spain",
+    "tagline": "More than a City",
+    "image": "https://postimg.cc/image/cv2zubo4r/"
+  },
+  {
+    "city": "Paris, France",
+    "tagline": "City of Love",
+    "image": "https://postimg.cc/image/h47pwim97/"
+  },
+  {
+    "city": "Cebu, Philippines",
+    "tagline": "Experience the Philippines",
+    "image": "https://postimg.cc/image/4ctjpzx1n/"
+  }
 ]
