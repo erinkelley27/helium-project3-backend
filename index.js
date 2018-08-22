@@ -1,5 +1,6 @@
 const express = require('express')
 const parser = require('body-parser')
+const cors = require('cors')
 
 const app = express()
 
@@ -8,6 +9,7 @@ const cityController = require('./controllers/city.js')
 const things2doController = require('./controllers/things2do.js')
 
 app.use(parser.json())
+app.use(cors())
 
 app.use('/', vacationsController)
 app.use('/', cityController)
