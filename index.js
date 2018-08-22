@@ -1,14 +1,14 @@
 const express = require('express')
 const parser = require('body-parser')
 const cors = require('cors')
-const passport = require('./config/passport')
+const passport = require('./config/passport')()
 
 const app = express()
 
 const vacationsController = require('./controllers/see-vacations.js')
 const cityController = require('./controllers/city.js')
 const things2doController = require('./controllers/things2do.js')
-const userController = require('./controllers/user,js')
+const userController = require('./controllers/user.js')
 
 app.use(parser.json())
 app.use(cors())
