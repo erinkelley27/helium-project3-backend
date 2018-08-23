@@ -20,11 +20,28 @@ router.post('/api/helium/', (req, res) => {
 })
 
 // Delete a thing to do
-router.delete('/api/helium/things2do/:id', (req, res) => {
-  Things2Do.findOneAndRemove({ _id: req.params.id })
+router.delete('/api/helium/things2do', (req, res) => {
+  Things2Do.findOneAndRemove({})
     .then((thing2do) => {
       res.redirect('/')
     })
+})
+//Update a thing to do
+router.put('/api/helium/things2do', (req,res)=> {
+  const info = {
+    city: req.body.sightsee,
+    sightsee: req.body.sightsee,
+    restaurant: req.body.restaurant,
+    accommodation: req.body.accommodation,
+    romanticPlace: req.body.romanticPlace,
+    image: req.body.image
+  };
+  console.log(info)
+  Things2Do.update({city: req.body.city}, info, function(err,result){
+    if(err)
+    res.send(err);
+    res.send('Sucessful Update')
+  })
 })
 
 module.exports = router

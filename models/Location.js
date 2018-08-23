@@ -3,6 +3,7 @@ const Schema = mongoose.Schema;
 
 const Things2Do = new Schema(
   {
+    city: String,
     sightsee: String,
     restaurant: String,
     accommodation: String,
