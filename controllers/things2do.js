@@ -26,8 +26,8 @@ router.delete('/api/helium/things2do', (req, res) => {
       res.redirect('/')
     })
 })
-//Update a thing to do
-router.put('/api/helium/things2do', (req,res)=> {
+// Update a thing to do
+router.put('/api/helium/things2do', (req, res) => {
   const info = {
     city: req.body.sightsee,
     sightsee: req.body.sightsee,
@@ -35,11 +35,10 @@ router.put('/api/helium/things2do', (req,res)=> {
     accommodation: req.body.accommodation,
     romanticPlace: req.body.romanticPlace,
     image: req.body.image
-  };
+  }
   console.log(info)
-  Things2Do.update({city: req.body.city}, info, function(err,result){
-    if(err)
-    res.send(err);
+  Things2Do.update({city: req.body.city}, info, function (err, result) {
+    if (err) { res.send(err)}
     res.send('Sucessful Update')
   })
 })
