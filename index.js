@@ -17,6 +17,6 @@ app.use(passport.initialize())
 app.use('/', vacationsController)
 app.use('/', cityController)
 app.use('/', things2doController)
-app.use('/', userController)
+app.use('/user', userController)
 
 app.listen(3001, () => console.log('Listening on port 3001 :)'))
