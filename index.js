@@ -19,4 +19,6 @@ app.use('/', cityController)
 app.use('/', things2doController)
 app.use('/user', userController)
 
-app.listen(3001, () => console.log('Listening on port 3001 :)'))
+app.listen(app.get('port'), () => {
+  console.log('Server listening on port ' + app.get('port'))
+})
