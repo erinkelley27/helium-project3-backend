@@ -10,6 +10,7 @@ const cityController = require('./controllers/city.js')
 const things2doController = require('./controllers/things2do.js')
 const userController = require('./controllers/user.js')
 
+app.set('port', process.env.PORT || 3001)
 app.use(parser.json())
 app.use(cors())
 app.use(passport.initialize())
@@ -19,4 +20,6 @@ app.use('/', cityController)
 app.use('/', things2doController)
 app.use('/user', userController)
 
-app.listen(3001, () => console.log('Listening on port 3001 :)'))
+app.listen(app.get('port'), () => {
+  console.log('Server listening on port ' + app.get('port'))
+})
