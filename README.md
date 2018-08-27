@@ -1,10 +1,10 @@
-## Love Away Vacations: Backend
+# Love Away Vacations: Backend
 
-# Description
+## Description
 
 Love Away Vacations is a site where users can browse romantic destinations throughout the world, reading city recommendations from other users in addition to submitting feedback themselves. 
 
-# Features
+## Features
 
 * Users can sign up and log in securely using JWT's and user authentication.
 * Users can select a destination from a database of international cities around the world.
@@ -12,7 +12,7 @@ Love Away Vacations is a site where users can browse romantic destinations throu
 * Users can submit a recommendation about each city, using a preset form that requests their favorite restaurants, sightseeing location, accomodations, romantic place and an image from their own vacation.
 * Users can update and delete their submissions.
 
-# Technologies
+## Technologies
 
 The backend of Love Away Vacations was built RESTfully with:
 
@@ -23,7 +23,7 @@ The backend of Love Away Vacations was built RESTfully with:
 
 The frontend was created with ReactJS.
 
-# Installation
+## Installation
 
 1. Clone or downlaod this repo
 2. `cd` into repo
@@ -32,7 +32,7 @@ The frontend was created with ReactJS.
 5. Open a separate tab and run `mongod` to connect to database with MongoDB
 6. Open a separate tab and run `nodemon index.js` to start server
 
-# Unsolved Problems / Things to Work On
+## Unsolved Problems / Things to Work On
 
 * Add user authentication conditionals to create, update and delete functions for city recommendations
 * Link city recommendations with specific city pages
